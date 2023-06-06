@@ -1,0 +1,88 @@
+body {
+  background-color: #191e25;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  max-width: 1440px;
+}
+.rectangle {
+  width: 540px;
+  height: 335px;
+  background: #313a49;
+  border-radius: 20px;
+}
+.line-style {
+  width: 463px;
+  height: 17px;
+  margin-left: 38px;
+}
+.advice-text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #53ffab;
+  margin-bottom: 0px;
+}
+.advice {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #d9d9d9;
+  margin-top: 40px;
+}
+.button {
+  margin-top: 28px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  margin-left: 242px;
+  border-radius: 100%;
+  background: #53ffab;
+  cursor: pointer;
+}
+.cube {
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+.button-lineDiv {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+@media screen and (max-width: 960px) {
+  .content-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rectangle {
+    width: 396px;
+    height: 361px;
+    left: 26px;
+    top: 191px;
+
+    background: #313a49;
+    border-radius: 20px;
+  }
+  .line-style {
+    width: 337px;
+    height: 17px;
+    left: 56px;
+    top: 464px;
+  }
+  .button {
+    margin-top: 55px;
+    margin-left: 45%;
+  }
+}
